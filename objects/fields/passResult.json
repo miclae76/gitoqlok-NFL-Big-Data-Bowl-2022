@@ -1,0 +1,10 @@
+{
+  "qName": "passResult",
+  "qTags": [
+    "$ascii",
+    "$text"
+  ],
+  "qSrcTables": [
+    "plays"
+  ]
+}

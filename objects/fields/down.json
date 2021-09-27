@@ -1,0 +1,10 @@
+{
+  "qName": "down",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "plays"
+  ]
+}

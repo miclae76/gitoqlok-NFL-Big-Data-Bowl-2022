@@ -1,0 +1,10 @@
+{
+  "qName": "week",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "games"
+  ]
+}

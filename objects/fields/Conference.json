@@ -1,0 +1,10 @@
+{
+  "qName": "Conference",
+  "qTags": [
+    "$ascii",
+    "$text"
+  ],
+  "qSrcTables": [
+    "teams"
+  ]
+}

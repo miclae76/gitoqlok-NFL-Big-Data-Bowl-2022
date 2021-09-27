@@ -1,0 +1,10 @@
+{
+  "qName": "kickBlocker.collegeName",
+  "qTags": [
+    "$ascii",
+    "$text"
+  ],
+  "qSrcTables": [
+    "kickBlocker"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "qName": "gameTimeEastern",
+  "qTags": [
+    "$numeric"
+  ],
+  "qSrcTables": [
+    "games"
+  ]
+}

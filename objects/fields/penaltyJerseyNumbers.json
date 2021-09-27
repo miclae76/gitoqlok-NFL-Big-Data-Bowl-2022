@@ -1,0 +1,10 @@
+{
+  "qName": "penaltyJerseyNumbers",
+  "qTags": [
+    "$ascii",
+    "$text"
+  ],
+  "qSrcTables": [
+    "plays"
+  ]
+}

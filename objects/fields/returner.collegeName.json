@@ -1,0 +1,10 @@
+{
+  "qName": "returner.collegeName",
+  "qTags": [
+    "$ascii",
+    "$text"
+  ],
+  "qSrcTables": [
+    "returner"
+  ]
+}

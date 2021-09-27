@@ -1,0 +1,10 @@
+{
+  "qName": "kickBlockerId",
+  "qTags": [
+    "$key"
+  ],
+  "qSrcTables": [
+    "plays",
+    "kickBlocker"
+  ]
+}

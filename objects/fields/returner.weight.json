@@ -1,0 +1,10 @@
+{
+  "qName": "returner.weight",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "returner"
+  ]
+}

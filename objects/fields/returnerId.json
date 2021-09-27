@@ -1,0 +1,10 @@
+{
+  "qName": "returnerId",
+  "qTags": [
+    "$key"
+  ],
+  "qSrcTables": [
+    "plays",
+    "returner"
+  ]
+}

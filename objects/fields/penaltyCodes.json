@@ -1,0 +1,10 @@
+{
+  "qName": "penaltyCodes",
+  "qTags": [
+    "$ascii",
+    "$text"
+  ],
+  "qSrcTables": [
+    "plays"
+  ]
+}

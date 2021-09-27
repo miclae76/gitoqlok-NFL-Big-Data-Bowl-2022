@@ -1,0 +1,10 @@
+{
+  "qName": "absoluteYardlineNumber",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "plays"
+  ]
+}

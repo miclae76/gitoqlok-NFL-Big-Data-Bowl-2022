@@ -1,0 +1,50 @@
+///$tab 20_Games
+// Game data
+/*
+gameId: Game identifier, unique (numeric)
+season: Season of game
+week: Week of game
+gameDate: Game Date (time, mm/dd/yyyy)
+gameTimeEastern: Start time of game (time, HH:MM:SS, EST)
+homeTeamAbbr: Home team three-letter code (text)
+visitorTeamAbbr: Visiting team three-letter code (text)
+*/
+
+
+[games]:
+LOAD
+	[gameId],
+	[season],
+	[week],
+	Date(Date#([gameDate], 'MM/DD/YYYY') ) AS [gameDate],
+	[gameTimeEastern],
+	[homeTeamAbbr],
+	[visitorTeamAbbr]
+ FROM [lib://NFL_BIG_DATA_BOWL_2022/games.csv]
+(txt, codepage is 28591, embedded labels, delimiter is ',', msq);
+
+
+
+
+[teams]:
+LOAD
+	[gameId],
+    'Home' AS [advantage],
+	[homeTeamAbbr] as teamAbbr
+Resident [games];
+
+LOAD
+	[gameId],
+    'Visiting' AS [advantage],
+	[visitorTeamAbbr] as teamAbbr
+Resident [games];
+
+
+LEFT JOIN (teams)
+LOAD
+    Name		 AS team ,
+    Abbreviation AS teamAbbr,
+    Conference,
+    Division
+FROM [lib://NFL_BIG_DATA_BOWL_2022/nfl_teams.csv]
+(txt, codepage is 28591, embedded labels, delimiter is ',', msq);

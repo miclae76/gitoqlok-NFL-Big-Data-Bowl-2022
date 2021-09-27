@@ -1,0 +1,10 @@
+{
+  "qName": "specialTeamsResult",
+  "qTags": [
+    "$ascii",
+    "$text"
+  ],
+  "qSrcTables": [
+    "plays"
+  ]
+}

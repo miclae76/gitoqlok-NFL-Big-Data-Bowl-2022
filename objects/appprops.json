@@ -1,0 +1,30 @@
+[
+  {
+    "qProperty": {
+      "qInfo": {
+        "qId": "116b2114-4ff8-4800-80be-71cbf39292e5",
+        "qType": "appprops"
+      },
+      "qMetaDef": {},
+      "sheetTitleBgColor": {
+        "color": "#003A74",
+        "index": -1
+      },
+      "sheetTitleGradientColor": {
+        "color": "#DA2128",
+        "index": -1
+      },
+      "sheetTitleColor": "#ffffff",
+      "sheetLogoThumbnail": {
+        "qStaticContentUrlDef": {
+          "qUrl": "/media/nfl-league-logo.png"
+        }
+      },
+      "sheetLogoPosition": "left",
+      "rtl": false,
+      "theme": "horizon",
+      "disableCellNavMenu": false
+    },
+    "qChildren": []
+  }
+]

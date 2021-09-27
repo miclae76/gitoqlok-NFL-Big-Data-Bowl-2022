@@ -1,0 +1,10 @@
+{
+  "qName": "kicker.weight",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "kicker"
+  ]
+}

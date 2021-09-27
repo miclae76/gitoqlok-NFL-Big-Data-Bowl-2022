@@ -1,0 +1,12 @@
+{
+  "qName": "kickBlocker.birthDate",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$timestamp",
+    "$date"
+  ],
+  "qSrcTables": [
+    "kickBlocker"
+  ]
+}

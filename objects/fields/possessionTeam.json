@@ -1,0 +1,10 @@
+{
+  "qName": "possessionTeam",
+  "qTags": [
+    "$ascii",
+    "$text"
+  ],
+  "qSrcTables": [
+    "plays"
+  ]
+}

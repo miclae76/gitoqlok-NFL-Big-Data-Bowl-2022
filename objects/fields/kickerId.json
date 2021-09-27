@@ -1,0 +1,10 @@
+{
+  "qName": "kickerId",
+  "qTags": [
+    "$key"
+  ],
+  "qSrcTables": [
+    "plays",
+    "kicker"
+  ]
+}

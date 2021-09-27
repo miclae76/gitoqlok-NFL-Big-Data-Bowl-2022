@@ -1,0 +1,10 @@
+{
+  "qName": "kicker.Position",
+  "qTags": [
+    "$ascii",
+    "$text"
+  ],
+  "qSrcTables": [
+    "kicker"
+  ]
+}

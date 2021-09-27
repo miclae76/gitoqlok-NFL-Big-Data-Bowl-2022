@@ -1,0 +1,9 @@
+{
+  "qName": "gameClock",
+  "qTags": [
+    "$numeric"
+  ],
+  "qSrcTables": [
+    "plays"
+  ]
+}

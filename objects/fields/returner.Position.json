@@ -1,0 +1,10 @@
+{
+  "qName": "returner.Position",
+  "qTags": [
+    "$ascii",
+    "$text"
+  ],
+  "qSrcTables": [
+    "returner"
+  ]
+}

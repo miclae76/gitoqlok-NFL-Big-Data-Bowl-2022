@@ -1,0 +1,10 @@
+{
+  "qName": "season",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "games"
+  ]
+}

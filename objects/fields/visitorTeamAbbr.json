@@ -1,0 +1,10 @@
+{
+  "qName": "visitorTeamAbbr",
+  "qTags": [
+    "$ascii",
+    "$text"
+  ],
+  "qSrcTables": [
+    "games"
+  ]
+}

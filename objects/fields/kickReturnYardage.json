@@ -1,0 +1,7 @@
+{
+  "qName": "kickReturnYardage",
+  "qTags": [],
+  "qSrcTables": [
+    "plays"
+  ]
+}

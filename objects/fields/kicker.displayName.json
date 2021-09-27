@@ -1,0 +1,10 @@
+{
+  "qName": "kicker.displayName",
+  "qTags": [
+    "$ascii",
+    "$text"
+  ],
+  "qSrcTables": [
+    "kicker"
+  ]
+}

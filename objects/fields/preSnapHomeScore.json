@@ -1,0 +1,10 @@
+{
+  "qName": "preSnapHomeScore",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "plays"
+  ]
+}

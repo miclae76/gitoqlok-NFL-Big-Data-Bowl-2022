@@ -1,0 +1,10 @@
+{
+  "qName": "yardlineSide",
+  "qTags": [
+    "$ascii",
+    "$text"
+  ],
+  "qSrcTables": [
+    "plays"
+  ]
+}

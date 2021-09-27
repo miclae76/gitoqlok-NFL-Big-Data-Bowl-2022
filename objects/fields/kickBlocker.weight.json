@@ -1,0 +1,10 @@
+{
+  "qName": "kickBlocker.weight",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "kickBlocker"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "qName": "returner.birthDate",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$timestamp",
+    "$date"
+  ],
+  "qSrcTables": [
+    "returner"
+  ]
+}

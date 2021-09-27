@@ -1,0 +1,4043 @@
+{
+  "qProperty": {
+    "qInfo": {
+      "qId": "ee1b2739-535a-4523-b271-eccda045f8d8",
+      "qType": "sheet"
+    },
+    "qMetaDef": {
+      "title": "Special Team Performance",
+      "description": ""
+    },
+    "rank": null,
+    "thumbnail": {
+      "qStaticContentUrlDef": {}
+    },
+    "columns": 24,
+    "rows": 12,
+    "cells": [
+      {
+        "name": "JuRznCm",
+        "type": "pivot-table",
+        "col": 16,
+        "row": 0,
+        "colspan": 8,
+        "rowspan": 4,
+        "bounds": {
+          "y": 0,
+          "x": 66.66666666666666,
+          "width": 33.33333333333333,
+          "height": 33.33333333333333
+        }
+      },
+      {
+        "name": "sWFYVn",
+        "type": "distributionplot",
+        "col": 7,
+        "row": 0,
+        "colspan": 9,
+        "rowspan": 4,
+        "bounds": {
+          "y": 0,
+          "x": 29.166666666666668,
+          "width": 37.5,
+          "height": 33.33333333333333
+        }
+      },
+      {
+        "name": "JTzH",
+        "type": "qlik-trellis-container",
+        "col": 7,
+        "row": 4,
+        "colspan": 17,
+        "rowspan": 5,
+        "bounds": {
+          "y": 33.33333333333333,
+          "x": 29.166666666666668,
+          "width": 70.83333333333334,
+          "height": 41.66666666666667
+        }
+      },
+      {
+        "name": "ShrFwQN",
+        "type": "auto-chart",
+        "col": 0,
+        "row": 1,
+        "colspan": 7,
+        "rowspan": 11,
+        "bounds": {
+          "y": 8.333333333333332,
+          "x": 0,
+          "width": 29.166666666666668,
+          "height": 91.66666666666666
+        }
+      },
+      {
+        "name": "nMjQmr",
+        "type": "qsSimpleList",
+        "col": 0,
+        "row": 0,
+        "colspan": 4,
+        "rowspan": 1,
+        "bounds": {
+          "y": 0,
+          "x": 0,
+          "width": 16.666666666666664,
+          "height": 8.333333333333332
+        }
+      },
+      {
+        "name": "AdVk",
+        "type": "qsSimpleList",
+        "col": 4,
+        "row": 0,
+        "colspan": 3,
+        "rowspan": 1,
+        "bounds": {
+          "y": 0,
+          "x": 16.666666666666664,
+          "width": 12.5,
+          "height": 8.333333333333332
+        }
+      },
+      {
+        "name": "kNxxYN",
+        "type": "auto-chart",
+        "col": 7,
+        "row": 9,
+        "colspan": 17,
+        "rowspan": 3,
+        "bounds": {
+          "y": 75,
+          "x": 29.166666666666668,
+          "width": 70.83333333333334,
+          "height": 25
+        }
+      }
+    ],
+    "qChildListDef": {
+      "qData": {
+        "title": "/title"
+      }
+    },
+    "gridResolution": "small"
+  },
+  "qChildren": [
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "nMjQmr",
+          "qType": "qsSimpleList"
+        },
+        "qMetaDef": {},
+        "qListObjectDef": {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "season"
+            ],
+            "qFieldLabels": [],
+            "qSortCriterias": [
+              {
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0
+          },
+          "qFrequencyMode": "N",
+          "qShowAlternatives": true,
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 2,
+              "qHeight": 1000
+            }
+          ],
+          "qExpressions": [
+            {}
+          ],
+          "qSortByState": 0,
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": []
+            }
+          }
+        },
+        "showTitles": true,
+        "title": "Season",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "visualization": "qsSimpleList",
+        "version": "´1.7.2",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "list",
+          "iconChar": "puzzle",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "SimpleFieldSelect",
+          "description": "Simple field and variable selector for Qlik Sense",
+          "template": "SimpleFieldSelect",
+          "iconPath": "M14.5,9 L13,9 L13,3.3 C13,3.1 12.9,3 12.7,3 L8,3 L8,1.5 C8,0.7 7.3,0 6.5,0 C5.7,0 5,0.7 5,1.5 L5,3 L0.3,3 C0.1,3 0,3.1 0,3.3 L0,9 L1.5,9 C2.3,9 3,9.7 3,10.5 C3,11.3 2.3,12 1.5,12 L0,12 L0,15.7 C0,15.9 0.1,16 0.3,16 L5,16 L5,14.5 C5,13.7 5.7,13 6.5,13 C7.3,13 8,13.7 8,14.5 L8,16 L12.7,16 C12.9,16 13,15.9 13,15.7 L13,12 L14.5,12 C15.3,12 16,11.3 16,10.5 C16,9.7 15.3,9 14.5,9 Z",
+          "isThirdParty": true,
+          "type": "visualization",
+          "version": "´1.7.2",
+          "author": "Matti Punkeri / Mediassar Oy",
+          "homepage": "",
+          "keywords": "qlik-sense, visualization",
+          "license": "",
+          "preview": "RlogoSFS.png",
+          "repository": "",
+          "dependencies": {
+            "qlik-sense": ">=3.0.x"
+          },
+          "previewIconURL": "http://localhost:4848/extensions/SimpleFieldSelect/RlogoSFS.png"
+        },
+        "clearDimension": false,
+        "showFirstN": false,
+        "firstN": 0,
+        "actions": [],
+        "renderAs": "button",
+        "showState": false,
+        "alwaysOneSelected": false,
+        "lockSelection": false,
+        "itemsLayout": "h",
+        "hideLabel": true,
+        "hideExcluded": false,
+        "transparentStyle": false,
+        "compactMode": false,
+        "toggleMode": false,
+        "responsiveMode": false,
+        "centerHorizontal": false,
+        "centerVertical": false,
+        "spaceEvenly": false,
+        "color": {
+          "color": "#009845"
+        },
+        "hideCondition": "",
+        "selectionMode": "QUICK",
+        "selectionEnabled": true,
+        "qLayoutExclude": {
+          "disabled": {
+            "qExtendsId": "",
+            "props": {
+              "dimensionIsVariable": false,
+              "variableIsDate": false,
+              "variableEmptyAlreadySelected": false,
+              "visualizationType": "hlist",
+              "visInputFieldType": "text",
+              "visInputRangeSliderValuefield": false,
+              "visInputPlaceholdertxt": "",
+              "visInputNumberMin": "",
+              "visInputNumberMax": "",
+              "visInputNumberStep": "",
+              "dropdownValueForNoSelect": "Select",
+              "selectmultiselect": false,
+              "select2allowClear": false,
+              "select2enableSerach": true,
+              "addLUIclasses": true,
+              "fontsizeChange": "100",
+              "contentpadding": "-",
+              "leftpadding": "-",
+              "bottompadding": "-",
+              "rightpadding": "-",
+              "elementpadding": "-",
+              "showHeader": true,
+              "headerSize": "-",
+              "headerBpadding": "-",
+              "headerTpadding": "-",
+              "noBorders": false,
+              "mobileRemoveZoom": true,
+              "mobileCustomHeightCSS": "",
+              "hlistRoundedcorners": true,
+              "hlistMarginBetween": "1",
+              "hlistShowAsTable": true,
+              "useMaxHeight": false,
+              "textHAlign": "center",
+              "textVAlign": "-",
+              "removeYscroll": false,
+              "removeLabel": false,
+              "maxLimitvariable": "",
+              "dateformat": "d.m.yy",
+              "variableOptionsForValues": "",
+              "variableNameForKey": "",
+              "variableOptionsForKeys": "",
+              "allwaysOneSelectedDefault": "",
+              "selectAlsoThese": "",
+              "selectOnlyOne": false,
+              "hidePassiveItems": false,
+              "rightclikcmenu": false,
+              "rightclikcmenu_selall": true,
+              "rightclikcmenu_clear": true,
+              "rightclikcmenu_reverse": true,
+              "rightclikcmenu_possible": true,
+              "rightclikcmenu_random": false,
+              "rightclikcmenu_defaults": true,
+              "enablesearch": false,
+              "hideFromSelectionsBar": false,
+              "hideFromSelectionRealField": "",
+              "inlinelabeltext": "",
+              "inlinelabelSetinline": false,
+              "helptext": "",
+              "hovertitletext": "",
+              "transparentBackground": false,
+              "specialBackgroundColor": "",
+              "color_stateS_bg": "",
+              "color_stateO_bg": "",
+              "color_stateA_bg": "",
+              "color_stateX_bg": "",
+              "color_stateS_fo": "",
+              "color_stateO_fo": "",
+              "color_stateA_fo": "",
+              "color_stateX_fo": "",
+              "color_border": "",
+              "customFontCSS": "",
+              "customFontFamilyCSS": "",
+              "customElementAttribute": "",
+              "customElementClass": "",
+              "customStyleCSS": "",
+              "enableGlobals": false,
+              "global_bgcolor": "",
+              "global_elementbgcolor": "",
+              "global_bordercolor": "",
+              "global_borderwidth": "-",
+              "global_fontcolor": "",
+              "fontfamily_global": "",
+              "hideFieldsFromSelectionBar": "",
+              "hideSheetTitle": false,
+              "removeSheetTitlePadding": false,
+              "sheetTitleFontSize": -1,
+              "sheetTitleheight": -1,
+              "sheetTitleExtraText": "",
+              "hideSelectionBar": false,
+              "selBarExtraText": "",
+              "toolbarheight": -1,
+              "hideGuiToolbar": false,
+              "removeHeaderFromTextImageObjects": false,
+              "removeHeaderFromAllObjects": false,
+              "removeHeaderIfNoText": false,
+              "headerfontcolor_global": "",
+              "headerbgcolor_global": "",
+              "headerTpadding_global": "-",
+              "headerBpadding_global": "-",
+              "leftpadding_global": "-",
+              "rightpadding_global": "-",
+              "hidepivotTableSelectors": false
+            },
+            "variableValue": {},
+            "maxLimitvariableValue": {}
+          }
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "JuRznCm",
+          "qType": "pivot-table"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "homeTeamAbbr"
+                ],
+                "qFieldLabels": [],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "typWbU",
+                "othersLabel": "Others",
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                }
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GT_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {},
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [
+                {
+                  "qAttribute": true
+                },
+                {
+                  "qAttribute": true
+                }
+              ],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "othersLabel": "Others"
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "visitorTeamAbbr"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "THavva",
+                "othersLabel": "Others",
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                }
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Others"
+              },
+              "qTotalLabel": {
+                "qv": "Totals"
+              },
+              "qCalcCond": {},
+              "qAttributeExpressions": [
+                {
+                  "qAttribute": true
+                },
+                {
+                  "qAttribute": true
+                }
+              ],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "specialTeamsPlayType"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "mewEm",
+                "othersLabel": "Others",
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                }
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Others"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [
+                {
+                  "qAttribute": true
+                },
+                {
+                  "qAttribute": true
+                }
+              ],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "othersLabel": "Others"
+            }
+          ],
+          "qMeasures": [
+            {
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "Count(distinct [playId])",
+                "qNumFormat": {
+                  "qType": "U",
+                  "qnDec": 10,
+                  "qUseThou": 0
+                },
+                "qAggrFunc": "Expr",
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "CGvUPAu",
+                "numFormatFromTemplate": true,
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                }
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [
+                {
+                  "qAttribute": true
+                },
+                {
+                  "qAttribute": true
+                }
+              ],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              }
+            }
+          ],
+          "qInterColumnSortOrder": [
+            0,
+            1,
+            2
+          ],
+          "qSuppressMissing": true,
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 50,
+              "qHeight": 50
+            }
+          ],
+          "qReductionMode": "N",
+          "qMode": "P",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": 1,
+          "qMaxStackedCells": 3000,
+          "qShowTotalsAbove": true,
+          "qIndentMode": true,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "qExpansionState": [],
+          "qDynamicScript": [],
+          "columnOrder": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "columnWidths": [],
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": []
+            }
+          }
+        },
+        "showTitles": true,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "visualization": "pivot-table",
+        "qLayoutExclude": {
+          "disabled": {
+            "qExtendsId": "",
+            "isRecommended": true,
+            "recommendation": {
+              "analysis": {
+                "analysis": "breakdown",
+                "dims": [
+                  {
+                    "expr": "[specialTeamsPlayType]",
+                    "cType": "eField",
+                    "field": "specialTeamsPlayType",
+                    "fieldStats": {
+                      "distinctCount": 4,
+                      "dataType": "string"
+                    }
+                  },
+                  {
+                    "expr": "[homeTeamAbbr]",
+                    "cType": "eField",
+                    "field": "homeTeamAbbr",
+                    "fieldStats": {
+                      "distinctCount": 33,
+                      "dataType": "string"
+                    }
+                  },
+                  {
+                    "expr": "[visitorTeamAbbr]",
+                    "cType": "eField",
+                    "field": "visitorTeamAbbr",
+                    "fieldStats": {
+                      "distinctCount": 33,
+                      "dataType": "string"
+                    }
+                  }
+                ],
+                "msrs": [
+                  {
+                    "expr": "Count(distinct [playId])",
+                    "cType": "eInlineExpr",
+                    "fieldStats": {
+                      "valueRange": {
+                        "min": 1,
+                        "max": 39
+                      },
+                      "classification": [
+                        "measure"
+                      ]
+                    }
+                  }
+                ],
+                "analysisGroup": "breakdown",
+                "description": {
+                  "short": "Breakdown",
+                  "long": "Breakdown of a measure by contributing dimensions."
+                },
+                "title": "Count(distinct [playId]) by specialTeamsPlayType, homeTeamAbbr, and visitorTeamAbbr",
+                "titleTemplate": [
+                  {
+                    "msgId": "cao.chart.breakdown.4.title",
+                    "msgParams": {
+                      "$$1": 0,
+                      "$$2": 1,
+                      "$$3": 2,
+                      "$$4": 3
+                    }
+                  }
+                ]
+              },
+              "options": {},
+              "isExtendedAnalysis": false,
+              "matchRecord": {
+                "analysisPrecedentId": "P-Breakdown",
+                "matches": [
+                  {
+                    "slot": "$$1",
+                    "slotRole": "dimension",
+                    "field": "specialTeamsPlayType"
+                  },
+                  {
+                    "slot": "$$2",
+                    "slotRole": "dimension",
+                    "field": "homeTeamAbbr",
+                    "groupCriteria": [
+                      "cardinalityOrder",
+                      "sameHierarchy"
+                    ]
+                  },
+                  {
+                    "slot": "$$3",
+                    "slotRole": "dimension",
+                    "field": "visitorTeamAbbr",
+                    "groupCriteria": [
+                      "cardinalityOrder",
+                      "sameHierarchy"
+                    ]
+                  },
+                  {
+                    "slot": "$$4",
+                    "slotRole": "measure",
+                    "inlineExpr": "Count(distinct [playId])"
+                  }
+                ],
+                "precedentStats": {
+                  "matchedFields": 0,
+                  "uniquePrecedents": 0
+                }
+              },
+              "relevance": 1,
+              "analysisIntentRelevance": 0.09000000000000001
+            },
+            "showDisclaimer": true,
+            "labels": {
+              "auto": true,
+              "headers": true,
+              "overlay": true,
+              "leaves": true,
+              "values": false
+            },
+            "color": {
+              "auto": true,
+              "mode": "primary",
+              "formatting": {
+                "numFormatFromTemplate": true
+              },
+              "useBaseColors": "off",
+              "paletteColor": {
+                "index": 6
+              },
+              "useDimColVal": true,
+              "useMeasureGradient": true,
+              "persistent": true,
+              "expressionIsColor": true,
+              "expressionLabel": "",
+              "measureScheme": "sg",
+              "reverseScheme": false,
+              "dimensionScheme": "12",
+              "autoMinMax": true,
+              "measureMin": 0,
+              "measureMax": 10
+            },
+            "legend": {
+              "show": false,
+              "dock": "auto",
+              "showTitle": true
+            },
+            "tooltip": {
+              "auto": true,
+              "hideBasic": false
+            },
+            "totals": {
+              "show": true,
+              "position": "noTotals",
+              "label": "Totals"
+            },
+            "scrolling": {
+              "horizontal": true,
+              "keepFirstColumnInView": false,
+              "keepFirstColumnInViewTouch": false
+            },
+            "multiline": {
+              "wrapTextInHeaders": true,
+              "wrapTextInCells": true
+            }
+          },
+          "quarantine": {
+            "straightTableColumnWidths": {
+              "qHyperCubeDef.columnWidths": []
+            },
+            "conditionalShowHide": {
+              "measures": {},
+              "dimensions": {}
+            },
+            "conditionalColoring": {
+              "measures": {
+                "CGvUPAu": {
+                  "segments": {
+                    "limits": [],
+                    "paletteColors": [
+                      {
+                        "index": 6,
+                        "icon": "dot"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "tableRepresentation": {
+              "measures": {
+                "CGvUPAu": {
+                  "type": "text",
+                  "indicator": {
+                    "showTextValues": true,
+                    "applySegmentColors": false,
+                    "position": "right"
+                  },
+                  "miniChart": {
+                    "type": "sparkline",
+                    "colors": {
+                      "main": {
+                        "index": 6
+                      },
+                      "max": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "min": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "first": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "last": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "positive": {
+                        "index": 6
+                      },
+                      "negative": {
+                        "index": 10,
+                        "color": "#f93f17"
+                      }
+                    },
+                    "showDots": true,
+                    "yAxis": {
+                      "scale": "local",
+                      "position": "auto"
+                    }
+                  },
+                  "imageSetting": "label",
+                  "imageLabel": "",
+                  "imageUrl": ""
+                }
+              },
+              "dimensions": {
+                "mewEm": {
+                  "type": "text",
+                  "urlPosition": "dimension",
+                  "urlLabel": "",
+                  "linkUrl": "",
+                  "imageSetting": "label",
+                  "imageLabel": "",
+                  "imageUrl": ""
+                },
+                "typWbU": {
+                  "type": "text",
+                  "urlPosition": "dimension",
+                  "urlLabel": "",
+                  "linkUrl": "",
+                  "imageSetting": "label",
+                  "imageLabel": "",
+                  "imageUrl": ""
+                },
+                "jpJPd": {
+                  "type": "text",
+                  "urlPosition": "dimension",
+                  "urlLabel": "",
+                  "linkUrl": "",
+                  "imageSetting": "label",
+                  "imageLabel": "",
+                  "imageUrl": ""
+                }
+              }
+            },
+            "miniChartDef": {
+              "measures": {
+                "CGvUPAu": {
+                  "qDef": "",
+                  "qLibraryId": "",
+                  "qSortBy": {
+                    "qSortByState": 0,
+                    "qSortByFrequency": 0,
+                    "qSortByNumeric": 0,
+                    "qSortByAscii": 0,
+                    "qSortByLoadOrder": 0,
+                    "qSortByExpression": 0,
+                    "qExpression": {
+                      "qv": ""
+                    },
+                    "qSortByGreyness": 0
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": ""
+                    },
+                    "qOtherLimit": {
+                      "qv": ""
+                    },
+                    "qOtherLimitMode": "OTHER_GT_LIMIT",
+                    "qSuppressOther": false,
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qGlobalOtherGrouping": false,
+                    "qOtherCollapseInnerDimensions": false,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {
+                      "qv": ""
+                    }
+                  },
+                  "qMaxNumberPoints": -1,
+                  "qAttributeExpressions": [],
+                  "qNullSuppression": false
+                }
+              }
+            },
+            "interColSortOrder": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "search": {
+          "sorting": "auto"
+        },
+        "components": []
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "JTzH",
+          "qType": "qlik-trellis-container"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "specialTeamsPlayType"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "LUEpWvb",
+                "othersLabel": "Others",
+                "calculatedDim": false,
+                "baseDim": ""
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Others"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            }
+          ],
+          "qMeasures": [],
+          "qInterColumnSortOrder": [
+            0
+          ],
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 2,
+              "qHeight": 500
+            }
+          ],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "qDynamicScript": [],
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": []
+            }
+          }
+        },
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "prop": {
+          "vizId": "c41372ba-7ab0-413d-b009-c3ed5f50d033",
+          "columns": "4",
+          "maxCharts": "8",
+          "label": "left",
+          "labelMes": "default",
+          "customTitle": false,
+          "customTitleColDef": "{\"text-align\": \"center\", \"flex\": \"1\", \"font-weight\":\"bold\"}",
+          "customValuesColDef": "{\"text-align\": \"center\", \"flex\": \"1\", \"font-weight\":\"bold\"}",
+          "customTitleRowDef": "{\"align-self\": \"center\", \"font-weight\":\"bold\"}",
+          "customValuesRowDef": "{\"align-items\": \"center\", \"display\": \"flex\", \"flex\": \"1\", \"font-weight\":\"bold\"}",
+          "showAllDims": true,
+          "border": false,
+          "borderWidth": 0.5,
+          "borderColor": {
+            "color": "#B6D7EA",
+            "index": "-1"
+          },
+          "borderStyle": "solid",
+          "customBorderSwitch": false,
+          "customBorder": "{\"border\": \"0.5px\",\"border-color\": \"#b0afae\",\"border-style\": \"solid\"}",
+          "autoRange": true,
+          "slideMode": false,
+          "advanced": false
+        },
+        "visualization": "qlik-trellis-container",
+        "version": "0.38.0",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "grid",
+          "iconChar": "puzzle",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "Trellis container",
+          "description": "Trellis container is a Qlik Sense chart which allows you to create a trellis chart object based on an existing master visualization.\nVersion: 0.38.0",
+          "template": "qlik-trellis-container",
+          "iconPath": "M14.5,9 L13,9 L13,3.3 C13,3.1 12.9,3 12.7,3 L8,3 L8,1.5 C8,0.7 7.3,0 6.5,0 C5.7,0 5,0.7 5,1.5 L5,3 L0.3,3 C0.1,3 0,3.1 0,3.3 L0,9 L1.5,9 C2.3,9 3,9.7 3,10.5 C3,11.3 2.3,12 1.5,12 L0,12 L0,15.7 C0,15.9 0.1,16 0.3,16 L5,16 L5,14.5 C5,13.7 5.7,13 6.5,13 C7.3,13 8,13.7 8,14.5 L8,16 L12.7,16 C12.9,16 13,15.9 13,15.7 L13,12 L14.5,12 C15.3,12 16,11.3 16,10.5 C16,9.7 15.3,9 14.5,9 Z",
+          "isThirdParty": true,
+          "type": "visualization",
+          "version": "0.38.0",
+          "preview": "qlik-trellis-container.png",
+          "keywords": "qlik-sense, visualization",
+          "author": "Riley MacDonald",
+          "homepage": "",
+          "license": "MIT",
+          "repository": "https://github.com/qlik-oss/qwik-trellis",
+          "dependencies": {
+            "qlik-sense": ">=5.5.x"
+          },
+          "bundle": {
+            "id": "qlik-visualization-bundle",
+            "name": "Qlik Visualization bundle",
+            "description": "This is a set of supported objects that expands the visualization capabilities of Qlik Sense. These can be used in addition to the objects found under 'Charts'. For support conditions and limitations, see the documentation."
+          },
+          "installer": "QlikExtensionBundler",
+          "previewIconURL": "http://localhost:4848/extensions/qlik-trellis-container/qlik-trellis-container.png"
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "sWFYVn",
+          "qType": "distributionplot"
+        },
+        "qMetaDef": {},
+        "refLine": {
+          "refLines": []
+        },
+        "showTitles": true,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "showDisclaimer": true,
+        "orientation": "horizontal",
+        "gridlines": {
+          "auto": false,
+          "spacing": 2
+        },
+        "measureAxis": {
+          "show": "all",
+          "dock": "near",
+          "spacing": 1,
+          "autoMinMax": true,
+          "minMax": "min",
+          "min": 0,
+          "max": 10
+        },
+        "dimensionAxis": {
+          "show": "all",
+          "label": "auto",
+          "dock": "near"
+        },
+        "visualization": "distributionplot",
+        "qHyperCubeDef": {
+          "qDimensions": [
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "%play_Key"
+                ],
+                "qFieldLabels": [
+                  "%play_Key"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "fDMMx",
+                "othersLabel": "Others"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qSuppressOther": true,
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Others"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "showTitles": true,
+              "title": "",
+              "subtitle": "",
+              "footnote": "",
+              "disableNavMenu": false,
+              "showDetails": false,
+              "qStateName": "",
+              "othersLabel": "Others",
+              "$$hashKey": "object:29357"
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "specialTeamsPlayType"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "hVGGGE",
+                "othersLabel": "Others"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qSuppressOther": true,
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Others"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "showTitles": true,
+              "title": "",
+              "subtitle": "",
+              "footnote": "",
+              "disableNavMenu": false,
+              "showDetails": false,
+              "qStateName": "",
+              "othersLabel": "Others",
+              "$$hashKey": "object:29358"
+            }
+          ],
+          "qMeasures": [
+            {
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "Avg(kickLength)",
+                "qNumFormat": {
+                  "qType": "U",
+                  "qnDec": 10,
+                  "qUseThou": 0
+                },
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "cAHLGra",
+                "numFormatFromTemplate": true
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              },
+              "showTitles": true,
+              "title": "",
+              "subtitle": "",
+              "footnote": "",
+              "disableNavMenu": false,
+              "showDetails": false,
+              "qStateName": ""
+            }
+          ],
+          "qInterColumnSortOrder": [
+            1,
+            2,
+            0
+          ],
+          "qSuppressZero": true,
+          "qSuppressMissing": true,
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 0,
+              "qHeight": 0
+            }
+          ],
+          "qReductionMode": "N",
+          "qMode": "K",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qAlwaysFullyExpanded": true,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "qDynamicScript": [],
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": []
+            }
+          }
+        },
+        "presentation": {
+          "visibleComponents": "points_box"
+        },
+        "dataPoint": {
+          "bubbleScales": 35,
+          "displacement": "jitter"
+        },
+        "color": {
+          "point": {
+            "auto": false,
+            "mode": "byDimension",
+            "useBaseColors": "off",
+            "paletteColor": {
+              "index": 6
+            },
+            "useDimColVal": true,
+            "persistent": true,
+            "expressionIsColor": true,
+            "measureScheme": "sg",
+            "reverseScheme": false,
+            "dimensionScheme": "12",
+            "autoMinMax": true,
+            "measureMin": 0,
+            "measureMax": 10,
+            "expressionLabel": "",
+            "altLabel": "specialTeamsResult",
+            "byDimDef": {
+              "label": "specialTeamsResult",
+              "key": "=specialTeamsResult",
+              "type": "expression"
+            }
+          },
+          "formatting": {
+            "numFormatFromTemplate": true
+          },
+          "box": {
+            "paletteColor": {
+              "index": -1,
+              "color": "#e6e6e6"
+            }
+          }
+        },
+        "legend": {
+          "show": true,
+          "dock": "auto",
+          "showTitle": true
+        },
+        "sorting": {
+          "autoSort": true
+        },
+        "qLayoutExclude": {
+          "disabled": {
+            "qExtendsId": "",
+            "boxplotDef": {
+              "calculations": {
+                "auto": true,
+                "mode": "tukey",
+                "parameters": {
+                  "tukey": 1.5,
+                  "fractiles": 0.01,
+                  "stdDev": 3
+                }
+              },
+              "elements": {
+                "firstWhisker": {
+                  "name": "",
+                  "expression": null
+                },
+                "boxStart": {
+                  "name": "",
+                  "expression": null
+                },
+                "boxMiddle": {
+                  "name": "",
+                  "expression": null
+                },
+                "boxEnd": {
+                  "name": "",
+                  "expression": null
+                },
+                "lastWhisker": {
+                  "name": "",
+                  "expression": null
+                },
+                "outliers": {
+                  "include": true,
+                  "sortOutliers": true
+                }
+              },
+              "presentation": {
+                "whiskers": {
+                  "show": true
+                }
+              },
+              "color": {
+                "auto": true,
+                "mode": "primary",
+                "box": {
+                  "paletteColor": {
+                    "index": -1,
+                    "color": "#e6e6e6"
+                  }
+                },
+                "point": {
+                  "paletteColor": {
+                    "index": 6,
+                    "color": "#006580"
+                  }
+                },
+                "expressionIsColor": true
+              },
+              "sorting": {
+                "autoSort": true
+              }
+            },
+            "qUndoExclude": {
+              "hashCode": -2054892033,
+              "box": {
+                "qHyperCubeDef": {
+                  "qDimensions": [
+                    {
+                      "qDef": {
+                        "qGrouping": "N",
+                        "qFieldDefs": [
+                          "specialTeamsPlayType"
+                        ],
+                        "qFieldLabels": [
+                          ""
+                        ],
+                        "qSortCriterias": [
+                          {
+                            "qSortByNumeric": 1,
+                            "qSortByAscii": 1,
+                            "qSortByLoadOrder": 1,
+                            "qExpression": {
+                              "qv": "Rangemax(Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.25 ) - ((Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.75 ) - Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.25 )) * 1.5), Min( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] )  ))"
+                            }
+                          }
+                        ],
+                        "qNumberPresentations": [],
+                        "qActiveField": 0,
+                        "autoSort": true,
+                        "cId": "hVGGGE",
+                        "othersLabel": "Others"
+                      },
+                      "qOtherTotalSpec": {
+                        "qOtherMode": "OTHER_OFF",
+                        "qOtherCounted": {
+                          "qv": "10"
+                        },
+                        "qOtherLimit": {
+                          "qv": "0"
+                        },
+                        "qOtherLimitMode": "OTHER_GE_LIMIT",
+                        "qSuppressOther": true,
+                        "qForceBadValueKeeping": true,
+                        "qApplyEvenWhenPossiblyWrongResult": true,
+                        "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                        "qTotalMode": "TOTAL_OFF",
+                        "qReferencedExpression": {}
+                      },
+                      "qOtherLabel": {
+                        "qv": "Others"
+                      },
+                      "qTotalLabel": {},
+                      "qCalcCond": {},
+                      "qAttributeExpressions": [],
+                      "qAttributeDimensions": [],
+                      "qCalcCondition": {
+                        "qCond": {},
+                        "qMsg": {}
+                      }
+                    }
+                  ],
+                  "qMeasures": [
+                    {
+                      "qDef": {
+                        "qLabel": "First whisker",
+                        "qTags": [],
+                        "qGrouping": "N",
+                        "qDef": "Rangemax(Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.25 ) - ((Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.75 ) - Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.25 )) * 1.5), Min( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] )  ))",
+                        "qNumFormat": {
+                          "qType": "U",
+                          "qnDec": 10,
+                          "qUseThou": 0
+                        },
+                        "qAccumulate": 0,
+                        "qActiveExpression": 0,
+                        "qExpressions": [],
+                        "cId": "xavpPCY"
+                      },
+                      "qSortBy": {
+                        "qExpression": {}
+                      },
+                      "qAttributeExpressions": [
+                        {
+                          "qExpression": "='Box start - 1.5 IQR'",
+                          "qAttribute": true,
+                          "id": "tooltip"
+                        }
+                      ],
+                      "qAttributeDimensions": [],
+                      "qCalcCond": {},
+                      "qCalcCondition": {
+                        "qCond": {},
+                        "qMsg": {}
+                      },
+                      "qTrendLines": [],
+                      "qMiniChartDef": {
+                        "qSortBy": {
+                          "qExpression": {}
+                        },
+                        "qOtherTotalSpec": {
+                          "qOtherMode": "OTHER_OFF",
+                          "qOtherCounted": {},
+                          "qOtherLimit": {},
+                          "qOtherLimitMode": "OTHER_GT_LIMIT",
+                          "qForceBadValueKeeping": true,
+                          "qApplyEvenWhenPossiblyWrongResult": true,
+                          "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                          "qTotalMode": "TOTAL_OFF",
+                          "qReferencedExpression": {}
+                        },
+                        "qMaxNumberPoints": -1,
+                        "qAttributeExpressions": []
+                      },
+                      "boxElement": "firstWhisker"
+                    },
+                    {
+                      "qDef": {
+                        "qLabel": "Box start",
+                        "qTags": [],
+                        "qGrouping": "N",
+                        "qDef": "Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.25 )",
+                        "qNumFormat": {
+                          "qType": "U",
+                          "qnDec": 10,
+                          "qUseThou": 0
+                        },
+                        "qAccumulate": 0,
+                        "qActiveExpression": 0,
+                        "qExpressions": [],
+                        "cId": "rTXNUmH"
+                      },
+                      "qSortBy": {
+                        "qExpression": {}
+                      },
+                      "qAttributeExpressions": [
+                        {
+                          "qExpression": "='First quartile'",
+                          "qAttribute": true,
+                          "id": "tooltip"
+                        }
+                      ],
+                      "qAttributeDimensions": [],
+                      "qCalcCond": {},
+                      "qCalcCondition": {
+                        "qCond": {},
+                        "qMsg": {}
+                      },
+                      "qTrendLines": [],
+                      "qMiniChartDef": {
+                        "qSortBy": {
+                          "qExpression": {}
+                        },
+                        "qOtherTotalSpec": {
+                          "qOtherMode": "OTHER_OFF",
+                          "qOtherCounted": {},
+                          "qOtherLimit": {},
+                          "qOtherLimitMode": "OTHER_GT_LIMIT",
+                          "qForceBadValueKeeping": true,
+                          "qApplyEvenWhenPossiblyWrongResult": true,
+                          "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                          "qTotalMode": "TOTAL_OFF",
+                          "qReferencedExpression": {}
+                        },
+                        "qMaxNumberPoints": -1,
+                        "qAttributeExpressions": []
+                      },
+                      "boxElement": "boxStart"
+                    },
+                    {
+                      "qDef": {
+                        "qLabel": "Center line",
+                        "qTags": [],
+                        "qGrouping": "N",
+                        "qDef": "Median( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] )  )",
+                        "qNumFormat": {
+                          "qType": "U",
+                          "qnDec": 10,
+                          "qUseThou": 0
+                        },
+                        "qAccumulate": 0,
+                        "qActiveExpression": 0,
+                        "qExpressions": [],
+                        "cId": "jypnJEj"
+                      },
+                      "qSortBy": {
+                        "qExpression": {}
+                      },
+                      "qAttributeExpressions": [
+                        {
+                          "qExpression": "='Median'",
+                          "qAttribute": true,
+                          "id": "tooltip"
+                        }
+                      ],
+                      "qAttributeDimensions": [],
+                      "qCalcCond": {},
+                      "qCalcCondition": {
+                        "qCond": {},
+                        "qMsg": {}
+                      },
+                      "qTrendLines": [],
+                      "qMiniChartDef": {
+                        "qSortBy": {
+                          "qExpression": {}
+                        },
+                        "qOtherTotalSpec": {
+                          "qOtherMode": "OTHER_OFF",
+                          "qOtherCounted": {},
+                          "qOtherLimit": {},
+                          "qOtherLimitMode": "OTHER_GT_LIMIT",
+                          "qForceBadValueKeeping": true,
+                          "qApplyEvenWhenPossiblyWrongResult": true,
+                          "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                          "qTotalMode": "TOTAL_OFF",
+                          "qReferencedExpression": {}
+                        },
+                        "qMaxNumberPoints": -1,
+                        "qAttributeExpressions": []
+                      },
+                      "boxElement": "boxMiddle"
+                    },
+                    {
+                      "qDef": {
+                        "qLabel": "Box end",
+                        "qTags": [],
+                        "qGrouping": "N",
+                        "qDef": "Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.75 )",
+                        "qNumFormat": {
+                          "qType": "U",
+                          "qnDec": 10,
+                          "qUseThou": 0
+                        },
+                        "qAccumulate": 0,
+                        "qActiveExpression": 0,
+                        "qExpressions": [],
+                        "cId": "eLKaN"
+                      },
+                      "qSortBy": {
+                        "qExpression": {}
+                      },
+                      "qAttributeExpressions": [
+                        {
+                          "qExpression": "='Third quartile'",
+                          "qAttribute": true,
+                          "id": "tooltip"
+                        }
+                      ],
+                      "qAttributeDimensions": [],
+                      "qCalcCond": {},
+                      "qCalcCondition": {
+                        "qCond": {},
+                        "qMsg": {}
+                      },
+                      "qTrendLines": [],
+                      "qMiniChartDef": {
+                        "qSortBy": {
+                          "qExpression": {}
+                        },
+                        "qOtherTotalSpec": {
+                          "qOtherMode": "OTHER_OFF",
+                          "qOtherCounted": {},
+                          "qOtherLimit": {},
+                          "qOtherLimitMode": "OTHER_GT_LIMIT",
+                          "qForceBadValueKeeping": true,
+                          "qApplyEvenWhenPossiblyWrongResult": true,
+                          "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                          "qTotalMode": "TOTAL_OFF",
+                          "qReferencedExpression": {}
+                        },
+                        "qMaxNumberPoints": -1,
+                        "qAttributeExpressions": []
+                      },
+                      "boxElement": "boxEnd"
+                    },
+                    {
+                      "qDef": {
+                        "qLabel": "Last whisker",
+                        "qTags": [],
+                        "qGrouping": "N",
+                        "qDef": "Rangemin(Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.75 ) + ((Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.75 ) - Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.25 )) * 1.5), Max( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] )  ))",
+                        "qNumFormat": {
+                          "qType": "U",
+                          "qnDec": 10,
+                          "qUseThou": 0
+                        },
+                        "qAccumulate": 0,
+                        "qActiveExpression": 0,
+                        "qExpressions": [],
+                        "cId": "ZBdb"
+                      },
+                      "qSortBy": {
+                        "qExpression": {}
+                      },
+                      "qAttributeExpressions": [
+                        {
+                          "qExpression": "='Box end + 1.5 IQR'",
+                          "qAttribute": true,
+                          "id": "tooltip"
+                        }
+                      ],
+                      "qAttributeDimensions": [],
+                      "qCalcCond": {},
+                      "qCalcCondition": {
+                        "qCond": {},
+                        "qMsg": {}
+                      },
+                      "qTrendLines": [],
+                      "qMiniChartDef": {
+                        "qSortBy": {
+                          "qExpression": {}
+                        },
+                        "qOtherTotalSpec": {
+                          "qOtherMode": "OTHER_OFF",
+                          "qOtherCounted": {},
+                          "qOtherLimit": {},
+                          "qOtherLimitMode": "OTHER_GT_LIMIT",
+                          "qForceBadValueKeeping": true,
+                          "qApplyEvenWhenPossiblyWrongResult": true,
+                          "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                          "qTotalMode": "TOTAL_OFF",
+                          "qReferencedExpression": {}
+                        },
+                        "qMaxNumberPoints": -1,
+                        "qAttributeExpressions": []
+                      },
+                      "boxElement": "lastWhisker"
+                    }
+                  ],
+                  "qInterColumnSortOrder": [],
+                  "qInitialDataFetch": [],
+                  "qReductionMode": "N",
+                  "qMode": "S",
+                  "qPseudoDimPos": -1,
+                  "qNoOfLeftDims": -1,
+                  "qMaxStackedCells": 5000,
+                  "qCalcCond": {},
+                  "qTitle": {},
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "qColumnOrder": [],
+                  "qExpansionState": [],
+                  "qDynamicScript": []
+                }
+              },
+              "outliers": {
+                "qHyperCubeDef": {
+                  "qDimensions": [
+                    {
+                      "qDef": {
+                        "qGrouping": "N",
+                        "qFieldDefs": [
+                          "=aggr( If( Avg(kickLength) < Rangemax(Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.25 ) - ((Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.75 ) - Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.25 )) * 1.5), Min( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] )  )) or Avg(kickLength) > Rangemin(Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.75 ) + ((Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.75 ) - Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.25 )) * 1.5), Max( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] )  )) or Alt( Aggr( RowNo(), [specialTeamsPlayType], [%play_Key] ), 1 ) = 1, [specialTeamsPlayType] & [%play_Key] ), [%play_Key], [specialTeamsPlayType] )"
+                        ],
+                        "qFieldLabels": [
+                          ""
+                        ],
+                        "qSortCriterias": [
+                          {
+                            "qSortByNumeric": 1,
+                            "qSortByAscii": 1,
+                            "qSortByLoadOrder": 1,
+                            "qSortByExpression": 1,
+                            "qExpression": {
+                              "qv": "=aggr( If( Avg(kickLength) < Rangemax(Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.25 ) - ((Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.75 ) - Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.25 )) * 1.5), Min( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] )  )), Rangemax(Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.25 ) - ((Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.75 ) - Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.25 )) * 1.5), Min( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] )  )) - Avg(kickLength), Avg(kickLength) - Rangemin(Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.75 ) + ((Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.75 ) - Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.25 )) * 1.5), Max( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] )  )) ), [%play_Key], [specialTeamsPlayType] )"
+                            }
+                          }
+                        ],
+                        "qNumberPresentations": [],
+                        "qActiveField": 0,
+                        "autoSort": true,
+                        "cId": "vtUKx",
+                        "othersLabel": "Others"
+                      },
+                      "qNullSuppression": true,
+                      "qOtherTotalSpec": {
+                        "qOtherMode": "OTHER_OFF",
+                        "qOtherCounted": {
+                          "qv": "10"
+                        },
+                        "qOtherLimit": {
+                          "qv": "0"
+                        },
+                        "qOtherLimitMode": "OTHER_GE_LIMIT",
+                        "qSuppressOther": true,
+                        "qForceBadValueKeeping": true,
+                        "qApplyEvenWhenPossiblyWrongResult": true,
+                        "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                        "qTotalMode": "TOTAL_OFF",
+                        "qReferencedExpression": {}
+                      },
+                      "qOtherLabel": {
+                        "qv": "Others"
+                      },
+                      "qTotalLabel": {},
+                      "qCalcCond": {},
+                      "qAttributeExpressions": [],
+                      "qAttributeDimensions": [],
+                      "qCalcCondition": {
+                        "qCond": {},
+                        "qMsg": {}
+                      }
+                    },
+                    {
+                      "qDef": {
+                        "qGrouping": "N",
+                        "qFieldDefs": [
+                          "specialTeamsPlayType"
+                        ],
+                        "qFieldLabels": [
+                          ""
+                        ],
+                        "qSortCriterias": [
+                          {
+                            "qSortByNumeric": 1,
+                            "qSortByAscii": 1,
+                            "qSortByLoadOrder": 1,
+                            "qExpression": {
+                              "qv": "Rangemax(Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.25 ) - ((Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.75 ) - Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.25 )) * 1.5), Min( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] )  ))"
+                            }
+                          }
+                        ],
+                        "qNumberPresentations": [],
+                        "qActiveField": 0,
+                        "autoSort": true,
+                        "cId": "hVGGGE",
+                        "othersLabel": "Others"
+                      },
+                      "qOtherTotalSpec": {
+                        "qOtherMode": "OTHER_OFF",
+                        "qOtherCounted": {
+                          "qv": "10"
+                        },
+                        "qOtherLimit": {
+                          "qv": "0"
+                        },
+                        "qOtherLimitMode": "OTHER_GE_LIMIT",
+                        "qSuppressOther": true,
+                        "qForceBadValueKeeping": true,
+                        "qApplyEvenWhenPossiblyWrongResult": true,
+                        "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                        "qTotalMode": "TOTAL_OFF",
+                        "qReferencedExpression": {}
+                      },
+                      "qOtherLabel": {
+                        "qv": "Others"
+                      },
+                      "qTotalLabel": {},
+                      "qCalcCond": {},
+                      "qAttributeExpressions": [],
+                      "qAttributeDimensions": [],
+                      "qCalcCondition": {
+                        "qCond": {},
+                        "qMsg": {}
+                      }
+                    },
+                    {
+                      "qDef": {
+                        "qGrouping": "N",
+                        "qFieldDefs": [
+                          "%play_Key"
+                        ],
+                        "qFieldLabels": [
+                          "%play_Key"
+                        ],
+                        "qSortCriterias": [
+                          {
+                            "qSortByNumeric": 1,
+                            "qSortByAscii": 1,
+                            "qSortByLoadOrder": 1,
+                            "qExpression": {}
+                          }
+                        ],
+                        "qNumberPresentations": [],
+                        "qActiveField": 0,
+                        "autoSort": true,
+                        "cId": "fDMMx",
+                        "othersLabel": "Others"
+                      },
+                      "qOtherTotalSpec": {
+                        "qOtherMode": "OTHER_OFF",
+                        "qOtherCounted": {
+                          "qv": "10"
+                        },
+                        "qOtherLimit": {
+                          "qv": "0"
+                        },
+                        "qOtherLimitMode": "OTHER_GE_LIMIT",
+                        "qSuppressOther": true,
+                        "qForceBadValueKeeping": true,
+                        "qApplyEvenWhenPossiblyWrongResult": true,
+                        "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                        "qTotalMode": "TOTAL_OFF",
+                        "qReferencedExpression": {}
+                      },
+                      "qOtherLabel": {
+                        "qv": "Others"
+                      },
+                      "qTotalLabel": {},
+                      "qCalcCond": {},
+                      "qAttributeExpressions": [],
+                      "qAttributeDimensions": [],
+                      "qCalcCondition": {
+                        "qCond": {},
+                        "qMsg": {}
+                      }
+                    }
+                  ],
+                  "qMeasures": [
+                    {
+                      "qDef": {
+                        "qTags": [],
+                        "qGrouping": "N",
+                        "qDef": "=aggr( If( Avg(kickLength) < Rangemax(Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.25 ) - ((Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.75 ) - Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.25 )) * 1.5), Min( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] )  )) or Avg(kickLength) > Rangemin(Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.75 ) + ((Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.75 ) - Fractile( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ) ,0.25 )) * 1.5), Max( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] )  )), Avg(kickLength) ), [%play_Key], [specialTeamsPlayType] )",
+                        "qNumFormat": {
+                          "qType": "U",
+                          "qnDec": 10,
+                          "qUseThou": 0
+                        },
+                        "qAccumulate": 0,
+                        "qActiveExpression": 0,
+                        "qExpressions": [],
+                        "autoSort": true,
+                        "cId": "cAHLGra",
+                        "numFormatFromTemplate": true
+                      },
+                      "qSortBy": {
+                        "qSortByNumeric": -1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      },
+                      "qAttributeExpressions": [],
+                      "qAttributeDimensions": [],
+                      "qCalcCond": {},
+                      "qCalcCondition": {
+                        "qCond": {},
+                        "qMsg": {}
+                      },
+                      "qTrendLines": [],
+                      "qMiniChartDef": {
+                        "qSortBy": {
+                          "qExpression": {}
+                        },
+                        "qOtherTotalSpec": {
+                          "qOtherMode": "OTHER_OFF",
+                          "qOtherCounted": {},
+                          "qOtherLimit": {},
+                          "qOtherLimitMode": "OTHER_GT_LIMIT",
+                          "qForceBadValueKeeping": true,
+                          "qApplyEvenWhenPossiblyWrongResult": true,
+                          "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                          "qTotalMode": "TOTAL_OFF",
+                          "qReferencedExpression": {}
+                        },
+                        "qMaxNumberPoints": -1,
+                        "qAttributeExpressions": []
+                      }
+                    }
+                  ],
+                  "qInterColumnSortOrder": [
+                    1,
+                    0,
+                    3,
+                    2
+                  ],
+                  "qInitialDataFetch": [],
+                  "qReductionMode": "N",
+                  "qMode": "K",
+                  "qPseudoDimPos": -1,
+                  "qNoOfLeftDims": -1,
+                  "qAlwaysFullyExpanded": true,
+                  "qMaxStackedCells": 5000,
+                  "qCalcCond": {},
+                  "qTitle": {},
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "qColumnOrder": [],
+                  "qExpansionState": [],
+                  "qDynamicScript": []
+                }
+              }
+            }
+          },
+          "quarantine": {},
+          "changed": {
+            "color.persistent": {
+              "to": true
+            }
+          }
+        },
+        "qUndoExclude": {
+          "hashCode": 190770999,
+          "qHyperCubeDef": {
+            "qDimensions": [
+              {
+                "qDef": {
+                  "qGrouping": "N",
+                  "qFieldDefs": [
+                    "specialTeamsPlayType"
+                  ],
+                  "qFieldLabels": [
+                    ""
+                  ],
+                  "qSortCriterias": [
+                    {
+                      "qSortByNumeric": 1,
+                      "qSortByAscii": 1,
+                      "qSortByLoadOrder": 1,
+                      "qExpression": {
+                        "qv": "Min( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ), 0 )"
+                      }
+                    }
+                  ],
+                  "qNumberPresentations": [],
+                  "qActiveField": 0,
+                  "autoSort": true,
+                  "cId": "hVGGGE",
+                  "othersLabel": "Others"
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {
+                    "qv": "10"
+                  },
+                  "qOtherLimit": {
+                    "qv": "0"
+                  },
+                  "qOtherLimitMode": "OTHER_GE_LIMIT",
+                  "qSuppressOther": true,
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qOtherLabel": {
+                  "qv": "Others"
+                },
+                "qTotalLabel": {},
+                "qCalcCond": {},
+                "qAttributeExpressions": [
+                  {
+                    "qExpression": "Min( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ), 0 )",
+                    "id": "minBoxValue"
+                  },
+                  {
+                    "qExpression": "Max( total <[specialTeamsPlayType]> Aggr( Avg(kickLength), [specialTeamsPlayType], [%play_Key] ), 1 )",
+                    "id": "maxBoxValue"
+                  }
+                ],
+                "qAttributeDimensions": [],
+                "qCalcCondition": {
+                  "qCond": {},
+                  "qMsg": {}
+                },
+                "showTitles": true,
+                "title": "",
+                "subtitle": "",
+                "footnote": "",
+                "disableNavMenu": false,
+                "showDetails": false,
+                "qStateName": "",
+                "othersLabel": "Others",
+                "$$hashKey": "object:29358"
+              },
+              {
+                "qDef": {
+                  "qGrouping": "N",
+                  "qFieldDefs": [
+                    "%play_Key"
+                  ],
+                  "qFieldLabels": [
+                    "%play_Key"
+                  ],
+                  "qSortCriterias": [
+                    {
+                      "qSortByNumeric": 1,
+                      "qSortByAscii": 1,
+                      "qSortByLoadOrder": 1,
+                      "qExpression": {}
+                    }
+                  ],
+                  "qNumberPresentations": [],
+                  "qActiveField": 0,
+                  "autoSort": true,
+                  "cId": "fDMMx",
+                  "othersLabel": "Others"
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {
+                    "qv": "10"
+                  },
+                  "qOtherLimit": {
+                    "qv": "0"
+                  },
+                  "qOtherLimitMode": "OTHER_GE_LIMIT",
+                  "qSuppressOther": true,
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qOtherLabel": {
+                  "qv": "Others"
+                },
+                "qTotalLabel": {},
+                "qCalcCond": {},
+                "qAttributeExpressions": [],
+                "qAttributeDimensions": [
+                  {
+                    "qDef": "=specialTeamsResult",
+                    "qSortBy": {
+                      "qSortByAscii": 1,
+                      "qExpression": {}
+                    },
+                    "qAttribute": true,
+                    "id": "colorByAlternative",
+                    "label": "specialTeamsResult"
+                  }
+                ],
+                "qCalcCondition": {
+                  "qCond": {},
+                  "qMsg": {}
+                },
+                "showTitles": true,
+                "title": "",
+                "subtitle": "",
+                "footnote": "",
+                "disableNavMenu": false,
+                "showDetails": false,
+                "qStateName": "",
+                "othersLabel": "Others",
+                "$$hashKey": "object:29357"
+              }
+            ],
+            "qMeasures": [
+              {
+                "qDef": {
+                  "qTags": [],
+                  "qGrouping": "N",
+                  "qDef": "Avg(kickLength)",
+                  "qNumFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  },
+                  "qAccumulate": 0,
+                  "qActiveExpression": 0,
+                  "qExpressions": [],
+                  "autoSort": true,
+                  "cId": "cAHLGra",
+                  "numFormatFromTemplate": true
+                },
+                "qSortBy": {
+                  "qSortByNumeric": -1,
+                  "qSortByLoadOrder": 1,
+                  "qExpression": {}
+                },
+                "qAttributeExpressions": [],
+                "qAttributeDimensions": [],
+                "qCalcCond": {},
+                "qCalcCondition": {
+                  "qCond": {},
+                  "qMsg": {}
+                },
+                "qTrendLines": [],
+                "qMiniChartDef": {
+                  "qSortBy": {
+                    "qExpression": {}
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {},
+                    "qOtherLimit": {},
+                    "qOtherLimitMode": "OTHER_GT_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qMaxNumberPoints": -1,
+                  "qAttributeExpressions": []
+                },
+                "showTitles": true,
+                "title": "",
+                "subtitle": "",
+                "footnote": "",
+                "disableNavMenu": false,
+                "showDetails": false,
+                "qStateName": ""
+              }
+            ],
+            "qInterColumnSortOrder": [
+              0,
+              2,
+              1
+            ],
+            "qSuppressZero": true,
+            "qSuppressMissing": true,
+            "qInitialDataFetch": [
+              {
+                "qLeft": 0,
+                "qTop": 0,
+                "qWidth": 0,
+                "qHeight": 0
+              }
+            ],
+            "qReductionMode": "N",
+            "qMode": "K",
+            "qPseudoDimPos": -1,
+            "qNoOfLeftDims": -1,
+            "qAlwaysFullyExpanded": true,
+            "qMaxStackedCells": 5000,
+            "qCalcCond": {},
+            "qTitle": {},
+            "qCalcCondition": {
+              "qCond": {},
+              "qMsg": {}
+            },
+            "qColumnOrder": [],
+            "qExpansionState": [],
+            "qDynamicScript": [],
+            "qLayoutExclude": {
+              "qHyperCubeDef": {
+                "qDimensions": [],
+                "qMeasures": [],
+                "qInterColumnSortOrder": [],
+                "qInitialDataFetch": [],
+                "qReductionMode": "N",
+                "qMode": "S",
+                "qPseudoDimPos": -1,
+                "qNoOfLeftDims": -1,
+                "qMaxStackedCells": 5000,
+                "qCalcCond": {},
+                "qTitle": {},
+                "qCalcCondition": {
+                  "qCond": {},
+                  "qMsg": {}
+                },
+                "qColumnOrder": [],
+                "qExpansionState": [],
+                "qDynamicScript": []
+              }
+            }
+          }
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "ShrFwQN",
+          "qType": "table"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "='http://localhost:8080/nfl-'&replace(team, ' ', '-')&'-team-logo-2-350x350.png'"
+                ],
+                "qFieldLabels": [
+                  "Logo"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "jjgDrk",
+                "othersLabel": "Others",
+                "textAlign": {
+                  "auto": false,
+                  "align": "center"
+                },
+                "representation": {
+                  "type": "image",
+                  "urlPosition": "dimension",
+                  "urlLabel": "",
+                  "linkUrl": "",
+                  "imageSetting": "label",
+                  "imageLabel": "",
+                  "imageUrl": ""
+                }
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Others"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "team"
+                ],
+                "qFieldLabels": [],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "huppT",
+                "othersLabel": "Others",
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                },
+                "representation": {
+                  "type": "text",
+                  "urlPosition": "dimension",
+                  "urlLabel": "",
+                  "linkUrl": "",
+                  "imageSetting": "label",
+                  "imageLabel": "",
+                  "imageUrl": ""
+                }
+              },
+              "qNullSuppression": true,
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GT_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {},
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "othersLabel": "Others"
+            }
+          ],
+          "qMeasures": [
+            {
+              "qDef": {
+                "qLabel": "Total Kick Length",
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "Sum(kickLength)",
+                "qNumFormat": {
+                  "qType": "F",
+                  "qnDec": 2,
+                  "qUseThou": 0,
+                  "qFmt": "#.##0",
+                  "qDec": ",",
+                  "qThou": "."
+                },
+                "qAggrFunc": "Expr",
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "PxYmMa",
+                "numFormatFromTemplate": true,
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                },
+                "representation": {
+                  "type": "text",
+                  "indicator": {
+                    "showTextValues": true,
+                    "applySegmentColors": false,
+                    "position": "right"
+                  },
+                  "miniChart": {
+                    "type": "sparkline",
+                    "colors": {
+                      "main": {
+                        "index": 6
+                      },
+                      "max": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "min": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "first": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "last": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "positive": {
+                        "index": 6
+                      },
+                      "negative": {
+                        "index": 10,
+                        "color": "#f93f17"
+                      }
+                    },
+                    "showDots": true,
+                    "yAxis": {
+                      "scale": "local",
+                      "position": "auto"
+                    }
+                  },
+                  "imageSetting": "label",
+                  "imageLabel": "",
+                  "imageUrl": ""
+                },
+                "conditionalColoring": {
+                  "segments": {
+                    "limits": [],
+                    "paletteColors": [
+                      {
+                        "index": 6,
+                        "icon": "dot"
+                      }
+                    ]
+                  }
+                },
+                "isCustomFormatted": false
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qSuppressOther": true,
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": [],
+                "qNullSuppression": true
+              }
+            },
+            {
+              "qDef": {
+                "qLabel": "Pct Field Goal Good",
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "count({<specialTeamsPlayType={\"*goal*\"}, specialTeamsResult={\"Kick Attempt Good*\"}>}[%play_Key])/count({<specialTeamsPlayType={\"*goal*\"}>}[%play_Key])",
+                "qNumFormat": {
+                  "qType": "F",
+                  "qnDec": 2,
+                  "qUseThou": 0,
+                  "qFmt": "0,0%",
+                  "qDec": ",",
+                  "qThou": "."
+                },
+                "qAggrFunc": "Expr",
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "pQgBPz",
+                "numFormatFromTemplate": true,
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                },
+                "representation": {
+                  "type": "text",
+                  "indicator": {
+                    "showTextValues": true,
+                    "applySegmentColors": false,
+                    "position": "right"
+                  },
+                  "miniChart": {
+                    "type": "sparkline",
+                    "colors": {
+                      "main": {
+                        "index": 6
+                      },
+                      "max": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "min": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "first": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "last": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "positive": {
+                        "index": 6
+                      },
+                      "negative": {
+                        "index": 10,
+                        "color": "#f93f17"
+                      }
+                    },
+                    "showDots": true,
+                    "yAxis": {
+                      "scale": "local",
+                      "position": "auto"
+                    }
+                  },
+                  "imageSetting": "label",
+                  "imageLabel": "",
+                  "imageUrl": ""
+                },
+                "conditionalColoring": {
+                  "segments": {
+                    "limits": [],
+                    "paletteColors": [
+                      {
+                        "index": 6,
+                        "icon": "dot"
+                      }
+                    ]
+                  }
+                },
+                "isCustomFormatted": false
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qSuppressOther": true,
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": [],
+                "qNullSuppression": true
+              }
+            }
+          ],
+          "qInterColumnSortOrder": [
+            1,
+            0,
+            2,
+            3
+          ],
+          "qSuppressMissing": true,
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 0,
+              "qHeight": 0
+            }
+          ],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "qExpansionState": [],
+          "qDynamicScript": [],
+          "columnOrder": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "columnWidths": [
+            62,
+            -1,
+            -1,
+            -1
+          ],
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": []
+            }
+          }
+        },
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "visualization": "table",
+        "search": {
+          "sorting": "auto"
+        },
+        "components": [
+          {
+            "key": "theme",
+            "content": {
+              "fontSize": 16,
+              "fontColor": {
+                "index": -1,
+                "color": null
+              },
+              "hoverEffect": false,
+              "hoverColor": {
+                "index": -1,
+                "color": null
+              },
+              "hoverFontColor": {
+                "index": -1,
+                "color": null
+              },
+              "rowHeight": 2
+            },
+            "header": {
+              "fontSize": null,
+              "fontColor": {
+                "index": -1,
+                "color": null
+              }
+            }
+          }
+        ],
+        "totals": {
+          "show": true,
+          "position": "noTotals",
+          "label": "Totals"
+        },
+        "scrolling": {
+          "horizontal": true,
+          "keepFirstColumnInView": false,
+          "keepFirstColumnInViewTouch": false
+        },
+        "multiline": {
+          "wrapTextInHeaders": true,
+          "wrapTextInCells": true
+        },
+        "isRecommended": true,
+        "qLayoutExclude": {
+          "disabled": {},
+          "quarantine": {
+            "conditionalShowHide": {
+              "dimensions": {}
+            }
+          }
+        },
+        "recommendation": {
+          "analysis": {
+            "analysis": "list",
+            "dims": [
+              {
+                "field": "team",
+                "expr": "team",
+                "cType": "eField"
+              }
+            ],
+            "msrs": []
+          }
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "AdVk",
+          "qType": "qsSimpleList"
+        },
+        "qMetaDef": {},
+        "qListObjectDef": {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "advantage"
+            ],
+            "qFieldLabels": [
+              ""
+            ],
+            "qSortCriterias": [
+              {
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0,
+            "qLabelExpression": "='Advantage'",
+            "cId": null
+          },
+          "qFrequencyMode": "N",
+          "qShowAlternatives": true,
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 2,
+              "qHeight": 1000
+            }
+          ],
+          "qExpressions": [
+            {}
+          ],
+          "qSortByState": 0,
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": []
+            }
+          }
+        },
+        "clearDimension": false,
+        "showFirstN": false,
+        "firstN": 0,
+        "actions": [],
+        "showTitles": true,
+        "title": "Advantage",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "renderAs": "button",
+        "showState": false,
+        "alwaysOneSelected": false,
+        "lockSelection": false,
+        "itemsLayout": "h",
+        "hideLabel": true,
+        "hideExcluded": false,
+        "transparentStyle": false,
+        "compactMode": false,
+        "toggleMode": false,
+        "responsiveMode": false,
+        "centerHorizontal": false,
+        "centerVertical": false,
+        "spaceEvenly": false,
+        "color": {
+          "color": "#009845"
+        },
+        "hideCondition": "",
+        "visualization": "qsSimpleList",
+        "version": "´1.7.2",
+        "selectionMode": "QUICK",
+        "selectionEnabled": true,
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "list",
+          "iconChar": "puzzle",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "Simple List",
+          "description": "Simple List visualization",
+          "template": "qsSimpleList",
+          "iconPath": "M14.5,9 L13,9 L13,3.3 C13,3.1 12.9,3 12.7,3 L8,3 L8,1.5 C8,0.7 7.3,0 6.5,0 C5.7,0 5,0.7 5,1.5 L5,3 L0.3,3 C0.1,3 0,3.1 0,3.3 L0,9 L1.5,9 C2.3,9 3,9.7 3,10.5 C3,11.3 2.3,12 1.5,12 L0,12 L0,15.7 C0,15.9 0.1,16 0.3,16 L5,16 L5,14.5 C5,13.7 5.7,13 6.5,13 C7.3,13 8,13.7 8,14.5 L8,16 L12.7,16 C12.9,16 13,15.9 13,15.7 L13,12 L14.5,12 C15.3,12 16,11.3 16,10.5 C16,9.7 15.3,9 14.5,9 Z",
+          "isThirdParty": true,
+          "type": "visualization",
+          "version": "1.1.22",
+          "preview": "listbox",
+          "author": "Alexander Nerush"
+        },
+        "qLayoutExclude": {
+          "disabled": {
+            "qExtendsId": "",
+            "props": {
+              "dimensionIsVariable": false,
+              "variableIsDate": false,
+              "variableEmptyAlreadySelected": false,
+              "visualizationType": "hlist",
+              "visInputFieldType": "text",
+              "visInputRangeSliderValuefield": false,
+              "visInputPlaceholdertxt": "",
+              "visInputNumberMin": "",
+              "visInputNumberMax": "",
+              "visInputNumberStep": "",
+              "dropdownValueForNoSelect": "Select",
+              "selectmultiselect": false,
+              "select2allowClear": false,
+              "select2enableSerach": true,
+              "addLUIclasses": true,
+              "fontsizeChange": "100",
+              "contentpadding": "-",
+              "leftpadding": "-",
+              "bottompadding": "-",
+              "rightpadding": "-",
+              "elementpadding": "-",
+              "showHeader": true,
+              "headerSize": "-",
+              "headerBpadding": "-",
+              "headerTpadding": "-",
+              "noBorders": false,
+              "mobileRemoveZoom": true,
+              "mobileCustomHeightCSS": "",
+              "hlistRoundedcorners": true,
+              "hlistMarginBetween": "1",
+              "hlistShowAsTable": true,
+              "useMaxHeight": false,
+              "textHAlign": "center",
+              "textVAlign": "-",
+              "removeYscroll": false,
+              "removeLabel": false,
+              "maxLimitvariable": "",
+              "dateformat": "d.m.yy",
+              "variableOptionsForValues": "",
+              "variableNameForKey": "",
+              "variableOptionsForKeys": "",
+              "allwaysOneSelectedDefault": "",
+              "selectAlsoThese": "",
+              "selectOnlyOne": false,
+              "hidePassiveItems": false,
+              "rightclikcmenu": false,
+              "rightclikcmenu_selall": true,
+              "rightclikcmenu_clear": true,
+              "rightclikcmenu_reverse": true,
+              "rightclikcmenu_possible": true,
+              "rightclikcmenu_random": false,
+              "rightclikcmenu_defaults": true,
+              "enablesearch": false,
+              "hideFromSelectionsBar": false,
+              "hideFromSelectionRealField": "",
+              "inlinelabeltext": "",
+              "inlinelabelSetinline": false,
+              "helptext": "",
+              "hovertitletext": "",
+              "transparentBackground": false,
+              "specialBackgroundColor": "",
+              "color_stateS_bg": "",
+              "color_stateO_bg": "",
+              "color_stateA_bg": "",
+              "color_stateX_bg": "",
+              "color_stateS_fo": "",
+              "color_stateO_fo": "",
+              "color_stateA_fo": "",
+              "color_stateX_fo": "",
+              "color_border": "",
+              "customFontCSS": "",
+              "customFontFamilyCSS": "",
+              "customElementAttribute": "",
+              "customElementClass": "",
+              "customStyleCSS": "",
+              "enableGlobals": false,
+              "global_bgcolor": "",
+              "global_elementbgcolor": "",
+              "global_bordercolor": "",
+              "global_borderwidth": "-",
+              "global_fontcolor": "",
+              "fontfamily_global": "",
+              "hideFieldsFromSelectionBar": "",
+              "hideSheetTitle": false,
+              "removeSheetTitlePadding": false,
+              "sheetTitleFontSize": -1,
+              "sheetTitleheight": -1,
+              "sheetTitleExtraText": "",
+              "hideSelectionBar": false,
+              "selBarExtraText": "",
+              "toolbarheight": -1,
+              "hideGuiToolbar": false,
+              "removeHeaderFromTextImageObjects": false,
+              "removeHeaderFromAllObjects": false,
+              "removeHeaderIfNoText": false,
+              "headerfontcolor_global": "",
+              "headerbgcolor_global": "",
+              "headerTpadding_global": "-",
+              "headerBpadding_global": "-",
+              "leftpadding_global": "-",
+              "rightpadding_global": "-",
+              "hidepivotTableSelectors": false
+            },
+            "variableValue": {},
+            "maxLimitvariableValue": {}
+          }
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "kNxxYN",
+          "qType": "table"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "quarter"
+                ],
+                "qFieldLabels": [],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "pxLajY",
+                "othersLabel": "Others",
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                },
+                "representation": {
+                  "type": "text",
+                  "urlPosition": "dimension",
+                  "urlLabel": "",
+                  "linkUrl": "",
+                  "imageSetting": "label",
+                  "imageLabel": "",
+                  "imageUrl": ""
+                }
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GT_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {},
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "othersLabel": "Others"
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "gameClock"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "YVSAS",
+                "othersLabel": "Others",
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                },
+                "representation": {
+                  "type": "text",
+                  "urlPosition": "dimension",
+                  "urlLabel": "",
+                  "linkUrl": "",
+                  "imageSetting": "label",
+                  "imageLabel": "",
+                  "imageUrl": ""
+                }
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Others"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "othersLabel": "Others"
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "homeTeamAbbr"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "ntFHXP",
+                "othersLabel": "Others",
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                },
+                "representation": {
+                  "type": "text",
+                  "urlPosition": "dimension",
+                  "urlLabel": "",
+                  "linkUrl": "",
+                  "imageSetting": "label",
+                  "imageLabel": "",
+                  "imageUrl": ""
+                }
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Others"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "preSnapHomeScore"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "BxFhvj",
+                "othersLabel": "Others",
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                },
+                "representation": {
+                  "type": "text",
+                  "urlPosition": "dimension",
+                  "urlLabel": "",
+                  "linkUrl": "",
+                  "imageSetting": "label",
+                  "imageLabel": "",
+                  "imageUrl": ""
+                }
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Others"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "preSnapVisitorScore"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "tcnfdU",
+                "othersLabel": "Others",
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                },
+                "representation": {
+                  "type": "text",
+                  "urlPosition": "dimension",
+                  "urlLabel": "",
+                  "linkUrl": "",
+                  "imageSetting": "label",
+                  "imageLabel": "",
+                  "imageUrl": ""
+                }
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Others"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "visitorTeamAbbr"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "JJjNMG",
+                "othersLabel": "Others",
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                },
+                "representation": {
+                  "type": "text",
+                  "urlPosition": "dimension",
+                  "urlLabel": "",
+                  "linkUrl": "",
+                  "imageSetting": "label",
+                  "imageLabel": "",
+                  "imageUrl": ""
+                }
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Others"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "playDescription"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "JjL",
+                "othersLabel": "Others",
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                },
+                "representation": {
+                  "type": "text",
+                  "urlPosition": "dimension",
+                  "urlLabel": "",
+                  "linkUrl": "",
+                  "imageSetting": "label",
+                  "imageLabel": "",
+                  "imageUrl": ""
+                }
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Others"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "othersLabel": "Others"
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "possessionTeam"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "wxuenB",
+                "othersLabel": "Others",
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                },
+                "representation": {
+                  "type": "text",
+                  "urlPosition": "dimension",
+                  "urlLabel": "",
+                  "linkUrl": "",
+                  "imageSetting": "label",
+                  "imageLabel": "",
+                  "imageUrl": ""
+                }
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Others"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "[kicker.displayName]"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "Pmmf",
+                "othersLabel": "Others",
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                },
+                "representation": {
+                  "type": "text",
+                  "urlPosition": "dimension",
+                  "urlLabel": "",
+                  "linkUrl": "",
+                  "imageSetting": "label",
+                  "imageLabel": "",
+                  "imageUrl": ""
+                }
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Others"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "othersLabel": "Others"
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "yardlineNumber"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "xnftyf",
+                "othersLabel": "Others",
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                },
+                "representation": {
+                  "type": "text",
+                  "urlPosition": "dimension",
+                  "urlLabel": "",
+                  "linkUrl": "",
+                  "imageSetting": "label",
+                  "imageLabel": "",
+                  "imageUrl": ""
+                }
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Others"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "playResult"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "eepp",
+                "othersLabel": "Others",
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                },
+                "representation": {
+                  "type": "text",
+                  "urlPosition": "dimension",
+                  "urlLabel": "",
+                  "linkUrl": "",
+                  "imageSetting": "label",
+                  "imageLabel": "",
+                  "imageUrl": ""
+                }
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Others"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "othersLabel": "Others"
+            }
+          ],
+          "qMeasures": [],
+          "qInterColumnSortOrder": [
+            0,
+            1,
+            10,
+            6,
+            8,
+            9,
+            7,
+            4,
+            3,
+            5,
+            2
+          ],
+          "qSuppressMissing": true,
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 0,
+              "qHeight": 0
+            }
+          ],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "qExpansionState": [],
+          "qDynamicScript": [],
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": []
+            }
+          },
+          "columnOrder": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "columnWidths": [
+            -1,
+            -1,
+            34,
+            69,
+            -1,
+            -1,
+            647,
+            -1,
+            -1,
+            -1,
+            -1
+          ]
+        },
+        "showTitles": true,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "visualization": "table",
+        "search": {
+          "sorting": "auto"
+        },
+        "components": [],
+        "totals": {
+          "show": true,
+          "position": "noTotals",
+          "label": "Totals"
+        },
+        "scrolling": {
+          "horizontal": true,
+          "keepFirstColumnInView": false,
+          "keepFirstColumnInViewTouch": false
+        },
+        "multiline": {
+          "wrapTextInHeaders": true,
+          "wrapTextInCells": true
+        },
+        "isRecommended": true,
+        "qLayoutExclude": {
+          "disabled": {},
+          "quarantine": {
+            "conditionalShowHide": {
+              "dimensions": {}
+            }
+          }
+        },
+        "recommendation": {
+          "analysis": {
+            "analysis": "list",
+            "dims": [
+              {
+                "field": "quarter",
+                "expr": "quarter",
+                "cType": "eField"
+              },
+              {
+                "field": "playResult",
+                "expr": "playResult",
+                "cType": "eField"
+              },
+              {
+                "field": "playDescription",
+                "expr": "playDescription",
+                "cType": "eField"
+              },
+              {
+                "field": "kicker.displayName",
+                "expr": "[kicker.displayName]",
+                "cType": "eField"
+              },
+              {
+                "field": "gameClock",
+                "expr": "gameClock",
+                "cType": "eField"
+              }
+            ],
+            "msrs": []
+          }
+        }
+      },
+      "qChildren": []
+    }
+  ]
+}

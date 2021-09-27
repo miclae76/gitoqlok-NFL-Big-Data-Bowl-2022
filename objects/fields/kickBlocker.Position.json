@@ -1,0 +1,10 @@
+{
+  "qName": "kickBlocker.Position",
+  "qTags": [
+    "$ascii",
+    "$text"
+  ],
+  "qSrcTables": [
+    "kickBlocker"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "qName": "preSnapVisitorScore",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "plays"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "7c58a7a2-bf27-421e-93c2-2b674f248f7d",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "name",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "games"
+}

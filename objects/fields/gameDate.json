@@ -1,0 +1,12 @@
+{
+  "qName": "gameDate",
+  "qTags": [
+    "$numeric",
+    "$integer",
+    "$timestamp",
+    "$date"
+  ],
+  "qSrcTables": [
+    "games"
+  ]
+}

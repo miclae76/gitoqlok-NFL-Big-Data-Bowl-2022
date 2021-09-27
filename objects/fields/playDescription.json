@@ -1,0 +1,10 @@
+{
+  "qName": "playDescription",
+  "qTags": [
+    "$ascii",
+    "$text"
+  ],
+  "qSrcTables": [
+    "plays"
+  ]
+}

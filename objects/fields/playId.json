@@ -1,0 +1,10 @@
+{
+  "qName": "playId",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "plays"
+  ]
+}

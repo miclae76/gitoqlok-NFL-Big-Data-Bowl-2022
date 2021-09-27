@@ -1,0 +1,58 @@
+///$tab 30_Players
+//Player data
+/*
+gameId: Game identifier, unique (numeric)
+playId: Play identifier, not unique across games (numeric)
+nflId: Player identification number, unique across players (numeric)
+Height: Player height (text)
+Weight: Player weight (numeric)
+birthDate: Date of birth (YYYY-MM-DD)
+collegeName: Player college (text)
+Position: Player position (text)
+displayName: Player name (text)
+*/
+
+qualify *; Unqualify [kickerId], [returnerId], 	[kickBlockerId];
+
+
+[kicker]:
+LOAD
+	[nflId] as [kickerId],
+	[height],
+	[weight],
+	Date([birthDate]) AS [birthDate],
+	[collegeName],
+	[Position],
+	[displayName]
+ FROM [lib://NFL_BIG_DATA_BOWL_2022/players.csv]
+(txt, codepage is 28591, embedded labels, delimiter is ',', msq)
+where Exists([kickerId], nflId);
+
+
+[returner]:
+LOAD
+	[nflId] as [returnerId],
+	[height],
+	[weight],
+	Date([birthDate]) AS [birthDate],
+	[collegeName],
+	[Position],
+	[displayName]
+ FROM [lib://NFL_BIG_DATA_BOWL_2022/players.csv]
+(txt, codepage is 28591, embedded labels, delimiter is ',', msq)
+where Exists([returnerId], nflId);
+
+[kickBlocker]:
+LOAD
+	[nflId] as [kickBlockerId],
+	[height],
+	[weight],
+	Date([birthDate]) AS [birthDate],
+	[collegeName],
+	[Position],
+	[displayName]
+ FROM [lib://NFL_BIG_DATA_BOWL_2022/players.csv]
+(txt, codepage is 28591, embedded labels, delimiter is ',', msq)
+where Exists([kickBlockerId], nflId);
+
+Unqualify *;

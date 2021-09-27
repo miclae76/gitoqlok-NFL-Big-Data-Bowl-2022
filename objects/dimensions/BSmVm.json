@@ -1,0 +1,24 @@
+{
+  "qInfo": {
+    "qId": "BSmVm",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "season"
+    ],
+    "qFieldLabels": [
+      "Season"
+    ],
+    "title": "Season",
+    "coloring": {
+      "changeHash": "0.2552578285646614"
+    }
+  },
+  "qMetaDef": {
+    "title": "Season",
+    "description": "",
+    "tags": []
+  }
+}

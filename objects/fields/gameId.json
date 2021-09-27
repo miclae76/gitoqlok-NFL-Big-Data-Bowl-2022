@@ -1,0 +1,13 @@
+{
+  "qName": "gameId",
+  "qTags": [
+    "$key",
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "plays",
+    "games",
+    "teams"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "qName": "returner.displayName",
+  "qTags": [
+    "$ascii",
+    "$text"
+  ],
+  "qSrcTables": [
+    "returner"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "qName": "quarter",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "plays"
+  ]
+}

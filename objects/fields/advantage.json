@@ -1,0 +1,10 @@
+{
+  "qName": "advantage",
+  "qTags": [
+    "$ascii",
+    "$text"
+  ],
+  "qSrcTables": [
+    "teams"
+  ]
+}

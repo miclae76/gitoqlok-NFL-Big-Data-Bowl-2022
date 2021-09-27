@@ -1,0 +1,10 @@
+{
+  "qName": "yardsToGo",
+  "qTags": [
+    "$numeric",
+    "$integer"
+  ],
+  "qSrcTables": [
+    "plays"
+  ]
+}

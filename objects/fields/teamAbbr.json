@@ -1,0 +1,10 @@
+{
+  "qName": "teamAbbr",
+  "qTags": [
+    "$ascii",
+    "$text"
+  ],
+  "qSrcTables": [
+    "teams"
+  ]
+}

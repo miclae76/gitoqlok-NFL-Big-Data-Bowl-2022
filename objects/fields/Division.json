@@ -1,0 +1,10 @@
+{
+  "qName": "Division",
+  "qTags": [
+    "$ascii",
+    "$text"
+  ],
+  "qSrcTables": [
+    "teams"
+  ]
+}

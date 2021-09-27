@@ -1,0 +1,10 @@
+{
+  "qName": "%play_Key",
+  "qTags": [
+    "$ascii",
+    "$text"
+  ],
+  "qSrcTables": [
+    "plays"
+  ]
+}
